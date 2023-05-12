@@ -1,46 +1,32 @@
-# Getting Started with Create React App
+# Quiz React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto foi criado com CRA [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Descrição
 
-In the project directory, you can run:
+O Quiz React é um aplicativo de quiz construído com React. Ele permite que os usuários respondam perguntas de múltipla escolha e fornece feedback sobre suas respostas.
 
-### `npm start`
+## Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<ul>
+ <li>Perguntas de múltipla escolha com várias categorias.</li>
+ <li>Feedback em tempo real sobre as respostas.</li>
+ <li>Acompanhamento de pontuação.</li>
+</ul>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## API
+A API usada para criar o quiz foi [opentdb](https://opentdb.com/api_config.php).
 
-### `npm test`
+## Como executar o projeto
+Para executar este projeto localmente, siga as etapas abaixo:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<code>git clone https://github.com/BrunoJSC/quiz-react.git</code>
 
-### `npm run build`
+## Acesse o diretório do projeto:
+<code>cd quiz-react</code>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Instale as dependências:
+<code>npm install</code>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Inicie o servidor de desenvolvimento:
+<code>npm start</code>
